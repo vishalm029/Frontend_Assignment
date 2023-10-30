@@ -1,7 +1,8 @@
 {
   "name": "assignment",
   "homepage": "https://github.com/vishalm029/Frontend_Assignment",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": "true",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
@@ -23,9 +24,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  {
-    
   },
   "browserslist": [
     ">0.2%",
