@@ -1,0 +1,45 @@
+/* Board.css */
+.kanban-board {
+  display: flex;
+}
+
+/* DisplayOptions.css */
+.display-options {
+  margin-bottom: 20px;
+}
+
+/* Ticket.css */
+.ticket {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.ticket.expanded {
+  height: auto;
+}
+
+.ticket .ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket .checkbox {
+  margin-right: 10px;
+}
+
+.ticket .dropdown-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.ticket .ticket-details {
+  margin-top: 10px;
+  font-size: 14px;
+}
